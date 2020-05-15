@@ -213,6 +213,14 @@ background : none;
   color : white;
   float: right;
   font-size: small;
+  padding-right : 1%;
+
+}
+
+#MainContent {
+
+
+
 }
 
 #down-arrow {
@@ -234,19 +242,18 @@ height:30px;
 
 #hidden-content {
 
+
   float: left;
     width: 95%;
     margin-left: 3%;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     /* -webkit-box-flex: 1; */
     /* flex-grow: 1; */
     /* overflow: hidden; */
     list-style: none;
     /* border: solid 3px white; */
     background: black;
-        margin-top: -1px;
-    height: 300px;
-    display: none;
+    display : none;
     padding-left: 0%;
     padding: 3%;
     border-color: powderblue;
@@ -255,12 +262,19 @@ height:30px;
     color : #0cedab;
     font-size: medium ; 
     font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+    overflow : hidden;
+
 }
 
 #hidden-content a {
 
 color : #0cedab;
 
+}
+
+.mobileinvisible {
+  overflow : none;
+  box-sizing: unset; 
 }
 
 

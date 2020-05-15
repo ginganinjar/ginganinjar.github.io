@@ -203,10 +203,14 @@ background : none;
 
 }
 
+.footer-margin {
+  height: 100px;
+}
+
 .text-muted-color {
   color : white;
   float: right;
-  font-size: x-small;
+  font-size: small;
 }
 
 #down-arrow {
@@ -255,9 +259,6 @@ height:30px;
 
 color : #0cedab;
 
-}
-.footer-margin {
-  height: 100px;
 }
 
 

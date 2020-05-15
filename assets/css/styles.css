@@ -277,7 +277,7 @@ color : #0cedab;
   box-sizing: unset; 
 }
 
-/* 
+
 @media only screen and (max-width: 600px) {
   .mobileinvisible {
     display:none;
@@ -293,4 +293,4 @@ color : #0cedab;
   }
 
 
-} */
+}

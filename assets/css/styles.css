@@ -2,8 +2,6 @@
 body {
   /* Typography */
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  min-height : 100pxß;
-  
 }
 
 
@@ -152,7 +150,7 @@ transform: scale(1.5);
  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
-  /* overflow : hidden; */
+  min-height : 100%;
 
  }
 
@@ -264,8 +262,7 @@ height:30px;
     color : #0cedab;
     font-size: medium ; 
     font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
-  /* margin-bottom : 200px; */
-  
+
 
 }
 
@@ -275,20 +272,17 @@ color : #0cedab;
 
 }
 
-#botomfooter {
-  box-sizing: unset; 
-}
 .mobileinvisible {
-/* margin-top : 900px; */
+
   box-sizing: unset; 
-  margin-bottom:-200px;
-  
 }
-/* 
+
 
 @media only screen and (max-width: 600px) {
   .mobileinvisible {
-    display:none;
+    /* display:none; */
+    margin-top : 150%;
+    margin-bottom : -150%;
   }
 
   .col-sm {
@@ -301,4 +295,4 @@ color : #0cedab;
   }
 
 
-} */
+}

@@ -192,7 +192,8 @@ background : none;
     .make-nice-spacing {
       margin-left : 35%;
       padding-bottom:2%;
-
+      margin-right : unset;
+      
     }
 
 .footer{
@@ -294,6 +295,8 @@ Make invisible added due to error with stylesheet in mobile format. Switch from 
   
   .make-nice-spacing {
     margin-left : 0px;
+    padding-bottom: 1%;
+
   }
 
 

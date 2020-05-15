@@ -281,8 +281,8 @@ color : #0cedab;
 @media only screen and (max-width: 600px) {
   .mobileinvisible {
     /* display:none; */
-    margin-top : 150%;
-    margin-bottom : -150%;
+    /* margin-top : 150%;
+    margin-bottom : -150%; */
   }
 
   .col-sm {

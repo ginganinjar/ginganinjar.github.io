@@ -265,4 +265,15 @@ color : #0cedab;
   .mobileinvisible {
     display:none;
   }
+
+  .col-sm {
+    padding:2%;
+    margin-left:5px;
+  }
+  
+  .make-nice-spacing {
+    margin-left : 30px;
+  }
+
+
 }

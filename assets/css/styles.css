@@ -303,12 +303,10 @@ color : #0cedab;
   -o-background-size: cover;
   background-size: cover;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  /* Set rules to fill background */
-  min-height: 95%;
-  min-width: 1024px;
 	
   /* Set up proportionate scaling */
-  width: 450px;
+  max-width: 450px;
+  width : 450px;
   height: auto;
 	
   /* Set up positioning */

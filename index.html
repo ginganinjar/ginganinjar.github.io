@@ -46,23 +46,47 @@
   
 
 <section id="MainContent">
-  <div class="jumbotron vertical-center"> <!-- 
-    ^--- Added class  -->
-      <div class="container background-container-color">
-        
-           <h1> All About Dave </h1> 
+  <div class="jumbotron vertical-center"> 
+    
+    <!-- - Added class  -->
+    
+    <div class="container background-container-color">
+     
+       <h1> All About Dave </h1> 
         
 
         <img src="/assets/imgs/dave.png" class="zoom" id="bio-image" alt="this is me, well not me, a bad representation of me"> 
-      
-          
-      
+             
                 <p>I love coding. I really do.</p>
                 <p>My philosophical mantra in a couple of sentences : I always do what I say I'm going to do. I do not take handouts, I believe a mans word is his bond. I believe we are all meant to work and a man without a purpose is a man robbed of his soul. I believe referring to mankind as man is not sexist and I believe programming is getting harder, not easier. Oh, I am also pretty sure there is a portal at the bottom of the washing machine that is open to a parallel universe of which some evil entity has a sock fetish. I don't do drugs and I don't drink. I'm married to a great woman and have 3 wonderful kids.</p>
                 <p>I believe in sustainable living and am blessed enough to live on a beautiful property in Melbourne’s West and have all sorts of animals. We grow our own food, harvest our own water and have nearly kicked off the electricity grid. If you'd like to get in touch, I'd love to hear from you.</p>
       
-             </div>
-            </div>
+                <div id="down-arrow"  onclick="showRepo()" class="zoom">
+                  REPO 
+                   </div>
+                
+       
+              
+              <!-- had to manually set style display = none to correct dom value error -->
+                   <div id="hidden-content" style="display:none;">
+                
+                    =============== Resident Diagnostics 1.432 ================ <BR>
+                    CPU PASS <BR>
+                    ROM PASS <BR>
+                    640 KB RAM <BR>
+                    FLOPPY A: - FAIL <BR>
+                      <BR>
+                    <a href="https://github.com/ginganinjar/monash-_floating_divs" class="urls"> 15th of May, 2020 - Floating Divs </a>
+                 
+              
+              </div>
+              </div>           
+          </div>      
+
+
+
+
+   
         
             <!-- Magical flying ducks -->
             <div id="bigBox"></div>
@@ -84,6 +108,10 @@
        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
-</body>
+  <!-- for disapearing repo -->
+  <script src="js/script.js"></script>
 
+</body>
 </html>
+
+<!-- That's all folks -->

@@ -259,3 +259,10 @@ color : #0cedab;
 .footer-margin {
   height: 100px;
 }
+
+
+@media only screen and (max-width: 600px) {
+  .mobileinvisible {
+    display:none;
+  }
+}

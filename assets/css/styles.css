@@ -150,7 +150,7 @@ transform: scale(1.5);
  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
-  overflow : hidden;
+  /* overflow : hidden; */
 
  }
 
@@ -262,7 +262,7 @@ height:30px;
     color : #0cedab;
     font-size: medium ; 
     font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
-    overflow : hidden;
+
 
 }
 
@@ -273,11 +273,11 @@ color : #0cedab;
 }
 
 .mobileinvisible {
-  overflow : none;
+
   box-sizing: unset; 
 }
 
-
+/* 
 @media only screen and (max-width: 600px) {
   .mobileinvisible {
     display:none;
@@ -293,4 +293,4 @@ color : #0cedab;
   }
 
 
-}
+} */

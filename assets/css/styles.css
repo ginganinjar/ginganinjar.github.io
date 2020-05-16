@@ -277,8 +277,11 @@ color : #0cedab;
 Make invisible added due to error with stylesheet in mobile format. Switch from absolute to relative in footer */
 
 .mobileinvisible {
-  margin-bottom : 0;
-  margin-bottom : 0;
+  margin:0;    
+  margin-bottom: -10px;
+     line-height: 0px;
+
+
 
 }
 

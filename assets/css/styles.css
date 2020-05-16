@@ -55,11 +55,12 @@ background-color: aliceblue;
 .zoom {
   padding: 0px;
   transition: transform .2s; /* Animation */
-  width: 200px;
+  /* width: 200px;
   height: 200px;
-  margin: 0 auto;
-  float:left;
-  
+  display : block; */
+  width: 90%;
+
+
 }
 
 .zoom:hover {
@@ -149,7 +150,7 @@ transform: scale(1.5);
  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
-  min-height : 100vh;
+  /* min-height : 100vh; */
   height : 100vh;
 
 
@@ -234,7 +235,7 @@ background : none;
   clear: both;
   margin-left: 47%;
   width: 75px;
-margin-top: -.7%;
+/* margin-top: -.7%; */
 text-decoration: underline;
 font-weight: bold;
 cursor: pointer;
@@ -267,6 +268,9 @@ height:30px;
     font-size: medium ; 
     font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
 
+    display : absolute;
+
+
 
 }
 
@@ -280,9 +284,9 @@ color : #0cedab;
 /*  Make invisible added due to error with stylesheet in mobile format. Switch from absolute to relative in footer */
 
 .mobileinvisible {
-    margin:0;    
-    margin-bottom: -10px;
-     line-height: 0px;
+    margin-bottom:-20px;    
+    /* margin-bottom: -10px; */
+     line-height: 0px; 
      position : absolute;
 }
 

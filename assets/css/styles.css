@@ -2,22 +2,20 @@
 body {
   /* Typography */
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-}
+  }
 
 
 .textColor {
   color: white;
-}
+  }
 
-a:visited {
-font-weight: 200;
-
-}
+  a:visited {
+  font-weight: 200;
+  }
 
 .background-box {
   margin-top:5%;
-background-color: aliceblue;
-
+  background-color: aliceblue;
 }
 
 
@@ -40,8 +38,6 @@ background-color: aliceblue;
   /* line-height: 1.5; */
   float:left;
   width:28%;
-
-
   }
 
 /* Image CSS effect  */
@@ -55,24 +51,17 @@ background-color: aliceblue;
 .zoom {
   padding: 0px;
   transition: transform .2s; /* Animation */
-  /* width: 200px;
-  height: 200px;
-  display : block; */
   width: 90%;
-
-
-}
+  }
 
 .zoom:hover {
   animation-name:rotater; 
   animation-duration:500ms; 
   animation-iteration-count:1; 
   animation-timing-function: ease-out;
- 
-}
+  }
 
-/* Flying Duck - borrowed from https://codepen.io/cielou/pen/zBmLkE
- */
+/* Flying Duck - borrowed from https://codepen.io/cielou/pen/zBmLkE */
 
  #bigBox {
   position:absolute;
@@ -82,7 +71,8 @@ background-color: aliceblue;
   left:50%;
   margin:-100px 0 0 -120px;
   animation:bigBoxAnimation 6s linear infinite;
-}
+  }
+
 #box,#box2 {
   position:absolute;
   top:60%;
@@ -91,12 +81,14 @@ background-color: aliceblue;
   height:40px;
   margin:-20px 0 0 -20px;
   animation:boxAnimation 2.95s cubic-bezier(0.02, 0.01, 0.31, 1) infinite;
-}
-#box2 {
+  }
+
+  #box2 {
   animation:boxAnimation 3.2s cubic-bezier(0.02, 0.01, 0.31, 1) infinite;
   transform:matrix(-1,0,0,1,0,0);
-}
-#box::after, #box2::after {
+  }
+
+  #box::after, #box2::after {
   content:'';
   position:absolute;
   top:0;
@@ -107,16 +99,18 @@ background-color: aliceblue;
   border-radius:100%;
   animation:spanAnimation 3s cubic-bezier(0.3, 0.27, 0.07, 1.64) infinite;
   box-shadow:rgba(255,255,255,1) 0 0 20px 2px;
-}
-@keyframes bigBoxAnimation {
+  }
+
+  @keyframes bigBoxAnimation {
   100% {transform:rotate(360deg);}
-}
-@keyframes boxAnimation{
+  }
+
+  @keyframes boxAnimation{
   50% {transform:translateY(-150px);}
-}
-@keyframes spanAnimation {
+  }
+  @keyframes spanAnimation {
   50% {transform:translateX(-150px)}
-}
+  }
 
 /* 
 hover image zoom */
@@ -124,7 +118,6 @@ hover image zoom */
 .img-hover-zoom {
 height: 50px; /* [1.1] Set it as per your need */
  overflow: hidden;  
-/* width:60px; */
 float:left;
 margin-right: 6px;
 }
@@ -139,29 +132,17 @@ transition: transform .5s ease;
 transform: scale(1.5);
 }
 
-
-.vertical-center {
- 
+.background-image-cover {
   background-image: url("../imgs/home.jpeg"); 
- 
- /* Full height */
- /* height: 100%; */
- /* Center and scale the image nicely */
- /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
   min-height : 100%;
- /* height : 100vh;
-  */
-
-
- }
+   }
 
  /* Eliminate the border around the container box */
 .nobackground {
-background : none;
-
-}
+  background : none;
+  }
 
  .background-container-color {
   background-color:whitesmoke;
@@ -171,125 +152,95 @@ background : none;
   list-style: none;
   border: solid 3px white;
   margin-top:4%;
-
   border-radius: 15px 100px 5px 5px;
+   }
 
-
- }
-
-
-
-/* Contact Form CSS */
+  /* Contact Form CSS */
 
     .sendcontactemailbutton {
     float:right;
-      color: #fff;
+    color: #fff;
     background-color: #007bff;
     border-color: #007bff;
     margin-bottom: 1%;
     }
-/* 
-    Portfolio Grid spacing CSS */
 
+    /* // used for bootstrap portfolio divs */
     .make-nice-spacing {
       margin-left : 35%;
       padding-bottom:2%;
       margin-right : unset;
-      
-    }
+      }
 
 .footer{
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 50px;
+    height: 60px;
     line-height: 60px;
     background-color: #007bff;
-  
-
-}
+  }
 
 .footer-margin {
   height: 100px;
-}
+  }
+
+  /* Footer text color and font layout */
 
 .text-muted-color {
   color : white;
   float: right;
   font-size: small;
   padding-right : 1%;
-  margin-top: 16px;
-
-}
+  margin-top: 8px;
+  }
 
 #MainContent {
-
-
-
 }
 
 #down-arrow {
-  /* display: block; */
-  /* width: 100px; */
-  /* position: relative; */
   clear: both;
   margin-left: 47%;
   width: 75px;
-/* margin-top: -.7%; */
-text-decoration: underline;
-font-weight: bold;
-cursor: pointer;
-padding: 2%;
-height:30px;
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 2%;
+  height:30px;
+  }
 
-}
-
-
+/* hidden repo div on contact page */
+  
 #hidden-content {
-
-
-  float: left;
+    float: left;
     width: 95%;
     margin-left: 3%;
-    /* box-sizing: border-box; */
-    /* -webkit-box-flex: 1; */
-    /* flex-grow: 1; */
-    /* overflow: hidden; */
     list-style: none;
-    /* border: solid 3px white; */
     background: black;
     display : none;
     padding-left: 0%;
     padding: 3%;
     border-color: powderblue;
     border-radius: 10px 10px 10px 10px;
-    
     color : #0cedab;
     font-size: medium ; 
     font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
-
     display : absolute;
+  }
 
-
-
-}
-
-#hidden-content a {
-
-color : #0cedab;
-
-}
-
+  #hidden-content a {
+  color : #0cedab;
+  }
 
 /*  Make invisible added due to error with stylesheet in mobile format. Switch from absolute to relative in footer */
 
 .mobileinvisible {
-    margin-bottom:-20px;    
-    /* margin-bottom: -10px; */
+     margin-bottom:-20px;    
      line-height: 0px; 
      position : absolute;
 }
 
+/* CSS for footer in mobile format.  */
 
 @media only screen and (max-width: 812px) {
   .mobileinvisible {
@@ -306,6 +257,4 @@ color : #0cedab;
     padding-bottom: 1%;
 
   }
-
-
 }

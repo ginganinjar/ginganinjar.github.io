@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../monash-assignment-3"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ginganinjar.github.io"
+	}
+}

@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <title>Bootstrap  Portfolio</title>
+  <title>Bootstrap Portfolio</title>
 
   <!-- Boostrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -17,10 +17,11 @@
 
 </head>
 
-<body class ="background-image-cover">
+<body class="background-image-cover">
   <nav class="navbar navbar-expand-lg navbar-light bg-primary">
     <a class="navbar-brand " style="color: #f5f6f7" href="#">Dave. S.</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -34,7 +35,7 @@
         <li class="nav-item active">
           <a class="nav-link active" style="color: #f5f6f7;font-weight:bolder" href="index.html">About</a>
         </li>
-       </ul>
+      </ul>
     </div>
   </nav>
   <!-- End of navbar -->
@@ -42,70 +43,80 @@
 
 
   <!-- Start of container -->
-  
 
-<section id="MainContent">
-  <div class="jumbotron nobackground" > 
-    
-    <!-- - Added class  -->
-    
-    <div class="container background-container-color">
-     
-      <div class="row">
-          <div class="col-sm-4">
-             <h1> All About Dave </h1> 
-          </div>
-      </div>
 
-      <div class="row">
-        <div class="col-sm-3">
-        <img src="/assets/imgs/dave.png" class="zoom" id="bio-image" alt="this is me, well not me, a bad representation of me"> 
-        </div>
-        <div class="col-sm-9">
-          <p>I love coding. I really do.</p>
-          <p>My philosophical mantra in a couple of sentences : I always do what I say I'm going to do. I do not take handouts, I believe a mans word is his bond. I believe we are all meant to work and a man without a purpose is a man robbed of his soul. I believe referring to mankind as man is not sexist and I believe programming is getting harder, not easier. Oh, I am also pretty sure there is a portal at the bottom of the washing machine that is open to a parallel universe of which some evil entity has a sock fetish. I don't do drugs and I don't drink. I'm married to a great woman and have 3 wonderful kids.</p>
-          <p>I believe in sustainable living and am blessed enough to live on a beautiful property in Melbourne’s West and have all sorts of animals. We grow our own food, harvest our own water and have nearly kicked off the electricity grid. If you'd like to get in touch, I'd love to hear from you.</p>
-        </div>
-      </div>
+  <section id="MainContent">
+    <div class="jumbotron nobackground">
+
+      <!-- - Added class  -->
+
+      <div class="container background-container-color">
 
         <div class="row">
-            <div class="col-sm-12">
-                
-              <div id="down-arrow"  onclick="showRepo()" class="zoom">
-                  REPO 
-              </div>
+          <div class="col-sm-4">
+            <h1> All About Dave </h1>
           </div>
         </div>
-             
-              
-              <!-- had to manually set style display = none to correct dom value error -->
-                   <div id="hidden-content" style="display:none">
-                
-                    <u>Projects</u><BR>
-                    <BR>
-                    <a href="https://github.com/ginganinjar/monash-_floating_divs" class="urls"> 15th of May, 2020 - Floating Divs </a> <br>  
-                    <a href=" https://github.com/ginganinjar/monash-assignment-3" class="urls"> 20th of May, 2020 - Password Maker </a>
 
-                   
-                 
-              
-                    </div>
-      </div>           
-  </div>      
+        <div class="row">
+          <div class="col-sm-3">
+            <img src="/assets/imgs/dave.png" class="zoom" id="bio-image"
+              alt="this is me, well not me, a bad representation of me">
+          </div>
+          <div class="col-sm-9">
+            <p>I love coding. I really do.</p>
+            <p>My philosophical mantra in a couple of sentences : I always do what I say I'm going to do. I do not take
+              handouts, I believe a mans word is his bond. I believe we are all meant to work and a man without a
+              purpose is a man robbed of his soul. I believe referring to mankind as man is not sexist and I believe
+              programming is getting harder, not easier. Oh, I am also pretty sure there is a portal at the bottom of
+              the washing machine that is open to a parallel universe of which some evil entity has a sock fetish. I
+              don't do drugs and I don't drink. I'm married to a great woman and have 3 wonderful kids.</p>
+            <p>I believe in sustainable living and am blessed enough to live on a beautiful property in Melbourne’s West
+              and have all sorts of animals. We grow our own food, harvest our own water and have nearly kicked off the
+              electricity grid. If you'd like to get in touch, I'd love to hear from you.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+
+            <div id="down-arrow" onclick="showRepo()" class="zoom">
+              REPO
+            </div>
+          </div>
+        </div>
 
 
-        <!-- Magical flying ducks -->
-            <div id="bigBox"></div>
-            <div id="box"></div>
-            <div id="box2"></div>
+        <!-- had to manually set style display = none to correct dom value error -->
+        <div id="hidden-content" style="display:none">
 
-</section>
-                <!-- End of footer -->
+          <u>Projects</u><BR>
+          <BR>
+          <a href="https://github.com/ginganinjar/monash-_floating_divs" class="urls"> 15th of May, 2020 - Floating Divs
+          </a> <br>
+          <a href=" https://github.com/ginganinjar/monash-assignment-3" class="urls"> 20th of May, 2020 - Password Maker
+          </a>
 
 
 
-      <!-- jQuery & Bootstrap CDN -->
-       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Magical flying ducks -->
+    <div id="bigBox"></div>
+    <div id="box"></div>
+    <div id="box2"></div>
+
+  </section>
+  <!-- End of footer -->
+
+
+
+  <!-- jQuery & Bootstrap CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
   <!-- for disapearing repo -->
@@ -113,7 +124,7 @@
 
 
   <!-- Begin Footer -->
-  <div id = "footer" class="footer mobileinvisible">
+  <div id="footer" class="footer mobileinvisible">
     <div class="footer mobileinvisible">
       <div class="text-muted-color">Code is like poetry, except when its not. Enjoy No © rights </div>
     </div>

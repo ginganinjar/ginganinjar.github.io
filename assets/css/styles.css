@@ -18,6 +18,17 @@ body {
   background-color: aliceblue;
 }
 
+.computer_text {
+  margin-top: -536px;
+  margin-left: 140px;
+  height: 536px;
+}
+
+.img_back {
+  width : 100%;
+}
+
+}
 
 #main-bio {float: left;
   width:70%;
@@ -206,7 +217,7 @@ transform: scale(1.5);
   font-weight: bold;
   cursor: pointer;
   padding: 2%;
-  height:30px;
+  height: 63px;
   }
 
 /* hidden repo div on contact page */
@@ -219,7 +230,7 @@ transform: scale(1.5);
     background: black;
     display : none;
     padding-left: 0%;
-    padding: 3%;
+   // padding: 3%;
     border-color: powderblue;
     border-radius: 10px 10px 10px 10px;
     color : #0cedab;

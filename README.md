@@ -1,4 +1,4 @@
-<a href="https://www.mstone.com.au"><img src="/assets/imgs/dave.png" title="Milestone IT" alt="Milestone IT"></a>
+<a href="https://ginganinjar.github.io/"><img src="/assets/imgs/dave.png" title="Dave's portfolio" alt="Dave's portfolio"></a> --> Live Repo : https://ginganinjar.github.io/
 
 [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger)
 

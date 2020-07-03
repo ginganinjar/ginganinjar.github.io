@@ -1,18 +1,19 @@
 
     function showRepo() {
-      var x = document.getElementById("hidden-content");
-    if (x.style.display === "none") {
-      x.style.display = "block";
+
+   // rewrote function to use jquery as opposed to javascript
+
+   if ($("#hidden-content").is(":hidden")) {
+      $("#hidden-content").css("display","block");
       $("#down-arrow").text("Close");
-        $(".footer").css("display","none");
+      $("#footer").css("display","none");
 
 
     } else {
      
      $("#down-arrow").text("Repo ");
-   
      $("#hidden-content").css("display","none");
-     $(".footer").css("display","block");
+     $("#footer").css("display","block");
    }
   
   }

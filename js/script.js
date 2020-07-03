@@ -6,11 +6,11 @@
   var myWork;
 
 // array from portfolio including url and img.
-var myWorkArray = [["./assets/imgs/p1.png", "https://ginganinjar.github.io/monash-assignment-3/"],
-                 ["./assets/imgs/p3.png", "https://ginganinjar.github.io/monash-assignment4/"],
-                 ["./assets/imgs/p4.png", "https://ginganinjar.github.io/monash-assignment5/"],
-                 ["./assets/imgs/p5.png", "https://ginganinjar.github.io/ginganinjar-monash-assignment6/"],
-                 ["./assets/imgs/p6.png", "https://darren-behan.github.io/a-better-time/"]
+var myWorkArray = [["./assets/imgs/p1.png", "https://ginganinjar.github.io/monash-assignment-3/","https://github.com/ginganinjar/monash-assignment-3","20th of May, 2020 - Password Maker"],
+                 ["./assets/imgs/p3.png", "https://ginganinjar.github.io/monash-assignment4/","https://github.com/ginganinjar/monash-assignment4","29th of May, 2020 - Javascript Knowledge Game"],
+                 ["./assets/imgs/p4.png", "https://ginganinjar.github.io/monash-assignment5/", "https://github.com/ginganinjar/monash-assignment5","11th of June, 2020 - JS Daily Organiser"],
+                 ["./assets/imgs/p5.png", "https://ginganinjar.github.io/ginganinjar-monash-assignment6/", "https://github.com/ginganinjar/ginganinjar-monash-assignment6", "26th of July, 2020 - Weather application"],
+                 ["./assets/imgs/p6.png", "https://darren-behan.github.io/a-better-time/","https://github.com/darren-behan/a-better-time","1st of July, 2020 - A better time - date outing ideas"]
                 ]
 
 
@@ -82,21 +82,24 @@ function populatePage() {
 
     theCounter = theCounter + 1; 
   }
-
-
 }
 
 function openThis(e) {
 
   var getTheURL = e.getAttribute('data-url');
   window.open(getTheURL);     
-
-
 }
 
 
-$(document).ready(function () {
-  populatePage();
-
+// function to itterate through array and populate repo results in hidden div.
+function populateRepo() {
   
-})
+  for (i=0;i < myWorkArray.length;i ++) {
+
+      var makeURl = $("<a>");
+          makeURl.attr("href",myWorkArray[i][2]);
+          makeURl.html(myWorkArray[i][3] + "<BR>");
+
+          $("#repoResults").append(makeURl);
+  }
+}

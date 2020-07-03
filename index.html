@@ -94,24 +94,9 @@
           <img src="assets/imgs/computer.png" class="img_back">
           <div class="computer_text">
             <u>Projects</u><BR>
-            <BR>
-            <a href="https://github.com/ginganinjar/monash-assignment-3" class="urls"> 20th of May, 2020 - Password
-              Maker
-            </a><br>
-            <a href="https://github.com/ginganinjar/monash-assignment4" class="urls"> 29th of May, 2020 - Javascript
-              Knowledge Game
-            </a><br>
-            <a href="https://github.com/ginganinjar/monash-assignment5" class="urls"> 11th of June, 2020 - JS Daily
-              Organiser
-            </a><br>
-            <a href="https://github.com/ginganinjar/ginganinjar-monash-assignment6" class="urls"> 26th of July, 2020 -
-              Weather application
-            </a>
-            </a><br>
-            <a href="https://github.com/darren-behan/a-better-time" class="urls"> 1st of July, 2020 - A better time -
-              date outing ideas
-            </a>
-           
+            <div id="repoResults">
+             <!-- results here are populated from array in script.js -->
+            </div>    
           </div>
         </div>
       </div>
@@ -132,7 +117,12 @@
 
   <!-- for disapearing repo -->
   <script src="js/script.js"></script>
-
+  <script>
+    // fire and populate results from array.
+    $(document).ready(function () {
+      populateRepo();
+    })
+  </script>
 
   <!-- Begin Footer -->
   <div id="footer" class="footer mobileinvisible">
@@ -145,4 +135,4 @@
 
 </html>
 
-<!-- That's all folks oh one more thing - -->
+<!-- That's all folks oh one more thing - Bill Gates is a criminal -->

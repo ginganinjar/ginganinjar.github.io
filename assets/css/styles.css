@@ -2,11 +2,7 @@
 body {
   /* Typography */
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-
-  
-  
   }
-
 
 .textColor {
   color: white;
@@ -36,7 +32,6 @@ body {
 #main-bio {float: left;
   width:70%;
   margin-left: 14%;
-
   box-sizing: border-box;
   -webkit-box-flex: 1;
   flex-grow: 1;

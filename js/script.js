@@ -69,7 +69,7 @@ function populatePage() {
     let addStuff = $("<img>");
          addStuff.attr("src", myWorkArray[i][0]);
          addStuff.attr("class","img-fluid port-image");
-         addStuff.attr("style", "cursor:pointer;float:left;width:25%;padding:1%");
+         addStuff.attr("style", "cursor:pointer;float:left;width:25%;padding:1%;margin-bottom:3%;");
          addStuff.attr("id",i);
          addStuff.attr("data-url", myWorkArray[i][1]);
 

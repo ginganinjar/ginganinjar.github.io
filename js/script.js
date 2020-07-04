@@ -1,9 +1,9 @@
 
-   var theCounter;
-  var colID;
-  var rowID;
-  var itteration = 1;
-  var myWork;
+  let theCounter;
+  let colID;
+  let rowID;
+  let itteration = 1;
+  let myWork;
 
 // array from portfolio including url and img.
 var myWorkArray = [["./assets/imgs/p1.png", "https://ginganinjar.github.io/monash-assignment-3/","https://github.com/ginganinjar/monash-assignment-3","20th of May, 2020 - Password Maker"],
@@ -42,8 +42,8 @@ function populatePage() {
 
   for (i=0;i < myWorkArray.length;i ++) {
    
-    var addRow;
-    var addCol;
+    let addRow;
+    let addCol;
 
   if  ((theCounter && (theCounter % 5 === 0)) || (theCounter == 0)) {
       itteration ++;
@@ -86,7 +86,7 @@ function populatePage() {
 
 function openThis(e) {
 
-  var getTheURL = e.getAttribute('data-url');
+  let getTheURL = e.getAttribute('data-url');
   window.open(getTheURL);     
 }
 
@@ -96,7 +96,7 @@ function populateRepo() {
   
   for (i=0;i < myWorkArray.length;i ++) {
 
-      var makeURl = $("<a>");
+      let makeURl = $("<a>");
           makeURl.attr("href",myWorkArray[i][2]);
           makeURl.html(myWorkArray[i][3] + "<BR>");
 

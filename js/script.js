@@ -11,7 +11,8 @@ var myWorkArray = [["./assets/imgs/p1.png", "https://ginganinjar.github.io/monas
                  ["./assets/imgs/p4.png", "https://ginganinjar.github.io/monash-assignment5/", "https://github.com/ginganinjar/monash-assignment5","11th of June, 2020 - JS Daily Organiser"],
                  ["./assets/imgs/p5.png", "https://ginganinjar.github.io/ginganinjar-monash-assignment6/", "https://github.com/ginganinjar/ginganinjar-monash-assignment6", "26th of July, 2020 - Weather application"],
                  ["./assets/imgs/p6.png", "https://darren-behan.github.io/a-better-time/","https://github.com/darren-behan/a-better-time","1st of July, 2020 - A better time - date outing ideas"],
-                 ["./assets/imgs/p7.png", "https://desolate-inlet-67133.herokuapp.com/","https://github.com/ginganinjar/monash-assignment-13","10th of August, 2020 - Eat Da Burger"]
+                 ["./assets/imgs/p7.png", "https://desolate-inlet-67133.herokuapp.com/","https://github.com/ginganinjar/monash-assignment-13","10th of August, 2020 - Eat Da Burger"],
+                 ["./assets/imgs/p8.png", "https://chirpgram.herokuapp.com/","https://github.com/ginganinjar/chirpgram","24th of August, 2020 - ChirpGram"]
                 ]
 
 

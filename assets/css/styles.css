@@ -4,7 +4,6 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   }
 
-
 .textColor {
   color: white;
   }
@@ -18,11 +17,21 @@ body {
   background-color: aliceblue;
 }
 
+.computer_text {
+  margin-top: -536px;
+  margin-left: 140px;
+  height: 536px;
+}
+
+.img_back {
+  width : 100%;
+}
+
+}
 
 #main-bio {float: left;
   width:70%;
   margin-left: 14%;
-
   box-sizing: border-box;
   -webkit-box-flex: 1;
   flex-grow: 1;
@@ -165,13 +174,6 @@ transform: scale(1.5);
     margin-bottom: 1%;
     }
 
-    /* // used for bootstrap portfolio divs */
-    .make-nice-spacing {
-      margin-left : 35%;
-      padding-bottom:2%;
-      margin-right : unset;
-      }
-
 .footer{
     position: absolute;
     bottom: 0;
@@ -185,6 +187,17 @@ transform: scale(1.5);
   height: 100px;
   }
 
+  .fullheight {
+    height:100vh;
+    min-height:100vh;
+
+  }
+
+  .portbottom {
+margin-top : 3%;
+position: fixed;
+
+  }
   /* Footer text color and font layout */
 
 .text-muted-color {
@@ -206,9 +219,11 @@ transform: scale(1.5);
   font-weight: bold;
   cursor: pointer;
   padding: 2%;
-  height:30px;
+  height: 63px;
   }
 
+
+  
 /* hidden repo div on contact page */
   
 #hidden-content {
@@ -219,7 +234,6 @@ transform: scale(1.5);
     background: black;
     display : none;
     padding-left: 0%;
-    padding: 3%;
     border-color: powderblue;
     border-radius: 10px 10px 10px 10px;
     color : #0cedab;
@@ -242,9 +256,36 @@ transform: scale(1.5);
 
 /* CSS for footer in mobile format.  */
 
+@media only screen and (max-width: 1200px) {
+  .computer_text {
+    margin-top: -436px;
+    margin-left: 140px;
+    height: 436px;
+    
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .computer_text {
+    margin-top: -336px;
+    margin-left: 100px;
+    height: 336px;
+    width: 385px;
+    
+  }
+}
+
+
 @media only screen and (max-width: 812px) {
   .mobileinvisible {
     position : relative;
+  }
+
+  .computer_text {
+    margin-top: -343px;
+    margin-left: 95px;
+    height: 343px;
+    
   }
 
   .col-sm {
@@ -258,3 +299,34 @@ transform: scale(1.5);
 
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .computer_text {
+    margin-top: -223px;
+    margin-left: 100px;
+    height: 229px;
+    width: 200px;
+    font-size: xx-small;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .computer_text {
+    margin-top: -195px;
+    margin-left : 60px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .computer_text {
+    margin-top: 20px;
+  margin-left : 20px;
+
+  }
+
+  .img_back {
+display : none;
+
+  }
+}
+

@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <title>Bootstrap Portfolio</title>
+  <title>Portfolio</title>
 
   <!-- Boostrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -38,6 +38,7 @@
       </ul>
     </div>
   </nav>
+
   <!-- End of navbar -->
 
 
@@ -64,24 +65,25 @@
               alt="this is me, well not me, a bad representation of me">
           </div>
           <div class="col-sm-9">
-            <p>I love coding. I really do.</p>
-            <p>My philosophical mantra in a couple of sentences : I always do what I say I'm going to do. I do not take
-              handouts, I believe a mans word is his bond. I believe we are all meant to work and a man without a
-              purpose is a man robbed of his soul. I believe referring to mankind as man is not sexist and I believe
-              programming is getting harder, not easier. Oh, I am also pretty sure there is a portal at the bottom of
-              the washing machine that is open to a parallel universe of which some evil entity has a sock fetish. I
-              don't do drugs and I don't drink. I'm married to a great woman and have 3 wonderful kids.</p>
-            <p>I believe in sustainable living and am blessed enough to live on a beautiful property in Melbourne’s West
-              and have all sorts of animals. We grow our own food, harvest our own water and have nearly kicked off the
-              electricity grid. If you'd like to get in touch, I'd love to hear from you.</p>
+            <p>"The best software is the most simple!" - Van Gough</p>
+            <p>With more than 20 years of IT recruitment experience and qualifications in Behaviour Science and software
+              development I partner with leading businesses to secure the very best IT Professionals in the market. I
+              offer hands on experience with a variety of languages, systems and cloud products and beleive that
+              software development is both an art and skill and recruitment is both a science and an art! Here you will find
+              some of the most recent work I have done with a variety of languages and systems. If you want to partner
+              with a recruiter who has extensive hands on technical knowledge and software development experience, feel
+              free to get in touch.</p>
           </div>
+
+
         </div>
 
         <div class="row">
           <div class="col-sm-12">
 
-            <div id="down-arrow" onclick="showRepo()" class="zoom">
-              REPO
+            <div id="down-arrow" onclick="showRepo()">
+
+              Repo
             </div>
           </div>
         </div>
@@ -89,17 +91,13 @@
 
         <!-- had to manually set style display = none to correct dom value error -->
         <div id="hidden-content" style="display:none">
-
-          <u>Projects</u><BR>
-          <BR>
-          <a href="https://github.com/ginganinjar/monash-_floating_divs" class="urls"> 15th of May, 2020 - Floating Divs
-          </a> <br>
-          <a href="https://github.com/ginganinjar/monash-assignment-3" class="urls"> 20th of May, 2020 - Password Maker
-          </a>
-
-
-
-
+          <img src="assets/imgs/computer.png" class="img_back">
+          <div class="computer_text">
+            <u>Projects</u><BR>
+            <div id="repoResults">
+             <!-- results here are populated from array in script.js -->
+            </div>    
+          </div>
         </div>
       </div>
     </div>
@@ -113,15 +111,18 @@
   </section>
   <!-- End of footer -->
 
-
-
   <!-- jQuery & Bootstrap CDN -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
   <!-- for disapearing repo -->
   <script src="js/script.js"></script>
-
+  <script>
+    // fire and populate results from array.
+    $(document).ready(function () {
+      populateRepo();
+    })
+  </script>
 
   <!-- Begin Footer -->
   <div id="footer" class="footer mobileinvisible">
@@ -134,4 +135,4 @@
 
 </html>
 
-<!-- That's all folks oh one more thing - -->
+<!-- That's all folks oh one more thing - Bill Gates is a criminal -->

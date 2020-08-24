@@ -1,112 +1,97 @@
 <!DOCTYPE html>
 <html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
+    <title>Portfolio</title>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Boostrap Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
 
-  <title>Bootstrap Basic Portfolio</title>
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="assets/css/styles.css" media="screen" />
+  </head>
 
-  <!-- Boostrap Stylesheet -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <body class="background-image-cover fullheight">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <a class="navbar-brand" style="color: #f5f6f7;" href="#">Dave. S.</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" style="color: #f5f6f7;" href="contact.html"
+              >Contact</a
+            >
+          </li>
+          <li class="nav-item active">
+            <a
+              class="nav-link active"
+              style="color: #f5f6f7; font-weight: bolder;"
+              href="portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: #f5f6f7;" href="index.html"
+              >About</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End of navbar -->
 
-  <!-- CSS stylesheet -->
-  <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+    <!-- Start of container -->
 
-</head>
-
-
-<body class="background-image-cover">
-  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-    <a class="navbar-brand " style="color: #f5f6f7" href="#">Dave. S.</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" style="color: #f5f6f7" href="contact.html">Contact</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link active" style="color: #f5f6f7;font-weight:bolder" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" style="color: #f5f6f7" href="index.html">About</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <!-- End of navbar -->
-
-  <!-- Start of container -->
-
-  <div class="col-md-8">
-    <article class="block">
+    <article>
       <h1 class="block-heade make-nice-spacing">Portfolio</h1>
 
-      <div class="row make-nice-spacing">
-        <div class="col-sm">
-          <img class="img-fluid port-image" src="./assets/imgs/p1.png"  alt="" onclick="window.location.href='https://ginganinjar.github.io/monash-assignment-3/'" style="cursor: pointer;">
-        </div>
-        <div class="col-sm">
-          <img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt="">
-        </div>
-        <div class="col-sm">
-          <img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt="">
-        </div>
-      </div>
-
-
-      <div class="row make-nice-spacing">
-        <div class="col-sm">
-          <img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt="">
-        </div>
-        <div class="col-sm">
-          <img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt="">
-        </div>
-        <div class="col-sm">
-          <img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt="">
-        </div>
-      </div>
-
-      <div class="row make-nice-spacing">
-        <div class="col-sm">
-          <img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt="">
-        </div>
-        <div class="col-sm">
-          <img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt="">
-        </div>
-        <div class="col-sm">
-          <img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt="">
-        </div>
-      </div>
-
+      <div id="portfolio"></div>
     </article>
-  </div>
-
+  </body>
 
   <!-- End of container -->
 
   <!-- Begin Footer -->
-  <div class="footer mobileinvisible">
+  <div class="footer portbottom">
     <div class="bg-light footer-font-style text-muted footer-position">
-      <div class="text-muted-color">Code is like poetry, except when its not. Enjoy No © rights </div>
+      <div class="text-muted-color">
+        Code is like poetry, except when its not. Enjoy No © rights
+      </div>
     </div>
   </div>
 
-
   <!-- End of footer -->
-
 
   <!-- jQuery CDN -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <!-- Bootstrap CDN -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <!-- for disapearing repo -->
+  <script src="js/script.js"></script>
+  
+  <script>
+// fire and populate results from array.
+$(document).ready(function () {
+  populatePage();
+})
 
-</body>
+  </script>
 
 </html>
